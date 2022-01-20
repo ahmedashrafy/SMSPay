@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="20dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id = "@+id/groupName"
+        android:layout_height =  "match_parent"
+        android:layout_width =  "match_parent"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textColor="@color/blue_light"
+        android:fontFamily="@font/kollektif_bold"
+    />
+
+</LinearLayout>

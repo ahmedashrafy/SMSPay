@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_light"
+    android:orientation="vertical"
+    tools:context=".GroupActivity"
+    >
+
+
+
+    <LinearLayout
+        android:id="@+id/Balance"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:padding="20dp"
+        android:orientation="horizontal"
+        android:background="@color/blue_light"
+    >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/kollektif_bold"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:gravity="left"
+            android:text="Groups"
+            android:layout_margin="10dp"
+        />
+
+        <TextView
+            android:id="@+id/create_new_group"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kollektif_bold"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:gravity="right"
+            android:layout_margin="10dp"
+            android:text="+"
+            android:clickable="true"
+        />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <ListView
+        android:layout_marginTop="20dp"
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+    </ListView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_navigation_menu" />
+
+</LinearLayout>
