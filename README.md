@@ -1,5 +1,7 @@
 
 # SMSPay
+A low-data payment processor built upon encrypted SMS message routing.
+
 ## App Description
 SMSPay is an app that facilitates SMS-based payment system, allowing users to send money to other phone numbers. Instead of needing an internet connection, the app would rely mainly on low-data SMS messages.
 
